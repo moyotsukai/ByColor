@@ -1,0 +1,84 @@
+PODS:
+  - DKCamera (1.6.6)
+  - DKImagePickerController (4.1.2):
+    - DKImagePickerController/Camera (= 4.1.2)
+    - DKImagePickerController/Core (= 4.1.2)
+    - DKImagePickerController/ImageDataManager (= 4.1.2)
+    - DKImagePickerController/InlineCamera (= 4.1.2)
+    - DKImagePickerController/PhotoEditor (= 4.1.2)
+    - DKImagePickerController/PhotoGallery (= 4.1.2)
+    - DKImagePickerController/Resource (= 4.1.2)
+  - DKImagePickerController/Camera (4.1.2):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.1.2):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.1.2)
+  - DKImagePickerController/InlineCamera (4.1.2):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.1.2):
+    - DKImagePickerController/Core
+    - TOCropViewController (~> 2.4)
+  - DKImagePickerController/PhotoGallery (4.1.2):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.1.2)
+  - DKPhotoGallery (0.0.14):
+    - DKPhotoGallery/Core (= 0.0.14)
+    - DKPhotoGallery/Model (= 0.0.14)
+    - DKPhotoGallery/Preview (= 0.0.14)
+    - DKPhotoGallery/Resource (= 0.0.14)
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DKPhotoGallery/Core (0.0.14):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DKPhotoGallery/Model (0.0.14):
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DKPhotoGallery/Preview (0.0.14):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DKPhotoGallery/Resource (0.0.14):
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - FLAnimatedImage (1.0.12)
+  - SDWebImage (5.4.0):
+    - SDWebImage/Core (= 5.4.0)
+  - SDWebImage/Core (5.4.0)
+  - SDWebImageFLPlugin (0.3.0):
+    - FLAnimatedImage (>= 1.0.11)
+    - SDWebImage/Core (~> 5.0)
+  - TOCropViewController (2.5.2)
+
+DEPENDENCIES:
+  - DKImagePickerController (= 4.1.2)
+
+SPEC REPOS:
+  trunk:
+    - DKCamera
+    - DKImagePickerController
+    - DKPhotoGallery
+    - FLAnimatedImage
+    - SDWebImage
+    - SDWebImageFLPlugin
+    - TOCropViewController
+
+SPEC CHECKSUMS:
+  DKCamera: d6fad4db4b25c00eefe6904e9c86a926034d0c62
+  DKImagePickerController: 358ebcd5ce87db8863ec4b8dea651c67baca36e0
+  DKPhotoGallery: 0290d32343574f06eaa4c26f8f2f8a1035e916be
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
+  SDWebImageFLPlugin: cf3f4ae49f249dd785129346fd61bbc8433a88cf
+  TOCropViewController: e9da34f484aedd4e5d5a8ab230ba217cfe16c729
+
+PODFILE CHECKSUM: 333ed44a82b5a36ea6c10a5e9a15a5873f7512e7
+
+COCOAPODS: 1.8.4
